@@ -41,4 +41,6 @@ class Song
     hash
   end 
   
+  def self.artist
+  
 end 
