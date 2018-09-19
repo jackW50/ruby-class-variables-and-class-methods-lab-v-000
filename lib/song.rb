@@ -37,7 +37,6 @@ class Song
       else
         hash[gen] = 1 
       end 
-      
     end 
     hash
   end 
