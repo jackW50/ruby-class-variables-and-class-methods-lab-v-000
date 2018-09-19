@@ -33,7 +33,11 @@ class Song
     count = 0 
     @@genres.each do |gen|
       if hash.include?(gen)
-      hash[gen]  
+        hash[gen] += 1
+      else
+        hash[gen] = 1 
+      end 
+      
     end 
     hash
   end 
